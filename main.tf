@@ -4,6 +4,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "abc-resource-rg"
-  location = "eastus"
+  name     = "demo-resource-rg"
+  location = "eastus2"
 }
